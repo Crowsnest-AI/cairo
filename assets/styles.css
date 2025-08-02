@@ -1,0 +1,124 @@
+        @font-face {
+        font-family: courr;
+        src: url("Courier Regular.otf");
+        }
+  
+        body {
+            background-image: url("Ygg.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        p {
+          color: white;
+          font-family: courier, Courier New, monospace;
+          text-align: center;
+        }
+
+        td {
+        text-align: center;
+        color: white;
+        }
+
+
+        a:link
+            {
+            color: white;
+            text-decoration: none;
+            }
+        a:visited
+            {
+            color: white;
+            text-decoration: none;
+            }
+        a:hover
+            {
+            color: orange;
+            text-decoration: none;
+            }
+
+
+
+
+        #divbox1
+        {
+          border: 0px solid;
+          padding: 30px 40px 10px 40px;
+          box-shadow: 0px 0px 8px 4px black;
+          width:525px;
+          margin:auto;
+          text-align: center;
+          border-radius: 125px;
+          background-image: linear-gradient(black, black, black, white );
+          font-size: 170%;
+          text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
+          color: white;
+          font-family: courr, courier, Courier New, monospace;
+          text-align: center;
+           }
+
+
+
+        img
+             {
+          border: 2px solid #ddd;
+          border-radius: 12px;
+          padding: 1px;
+          width: 50px;
+          margin:auto;
+             }
+
+
+        img:hover
+             {
+          border: 2px solid darkred;
+          border-radius: 12px;
+          padding: 1px;
+          width: 50px;
+          margin:auto;
+          box-shadow: 0px 0px 8px 4px black;
+             }
+
+
+        #divtopbox
+         {
+          color: white;
+          font-family: courr, courier, Courier New, monospace;
+          font-size: 160%;
+          text-align: center;
+          width:500px;
+          background-image: linear-gradient(black, transparent );
+          text-align: center;
+          border: 0px transparent;
+          padding: 20px 50px 20px 50px;
+          line-height: 0.45; 
+          box-shadow: 0px 0px 8px 4px black;
+          margin:auto;
+          border-radius: 500px;
+          text-shadow: 0 0 10px black, 0 0 25px blue, 0 0 15px darkblue;
+        }
+
+
+
+.small {
+  font-size: 50%;
+}
+
+.smallish {
+  font-size: 70%;
+font-family: Georgia;
+}
+
+.content {
+  max-width: 640px;
+  margin: auto;
+display:block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
